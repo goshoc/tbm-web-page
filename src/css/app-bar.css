@@ -1,0 +1,11 @@
+.icon-bar {
+    height: 50px; /* Set a specific width */
+    background-color: white;
+}
+.navigation-bar
+{
+background-color: #FFFFFF;
+opacity: 0.9;
+position: absolute;
+width:100%
+}
