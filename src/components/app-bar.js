@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import { Navbar,Nav,NavItem } from 'react-bootstrap';
 import logoTBM from '../img/logo-tbm.png';
 import '../css/app-bar.css';
 
@@ -8,29 +7,37 @@ class GlobalAppBar extends Component {
 
   render() {
 
-    return (<div className="app-bar">
+    return (<nav className="navbar m-menu navbar-default navbar-fixed-top">
+          <div className="container">
 
-      <Navbar className="navigation-bar">
-        <Navbar.Header>
-            <img className="icon-bar" src={logoTBM} alt="TBM Logo" href="#home"/>
-        </Navbar.Header>
-        <Nav>
-          <NavItem eventKey={1} href="#">
-            La empresa
-          </NavItem>
-          <NavItem eventKey={2} href="#">
-            Productos
-          </NavItem>
-          <NavItem eventKey={3} href="#">
-            Servicios
-          </NavItem>
-          <NavItem eventKey={4} href="#">
-            Novedades
-          </NavItem>
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+            </button>
+              <a className="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></img></a>
+            </div>
 
-        </Nav>
-      </Navbar>
-    </div>)
+
+
+            <div className="collapse navbar-collapse" id="#navbar-collapse-1">
+
+
+              <ul className="nav navbar-nav navbar-right main-nav">
+                <li className="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </nav>)
   }
 }
 export default GlobalAppBar;

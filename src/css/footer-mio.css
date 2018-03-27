@@ -1,0 +1,40 @@
+.menu-footer {
+  color: #34737B;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 3px;
+  font-weight: normal;
+  list-style: none;
+}
+
+.menu-footer a {
+  text-decoration: none;
+  color: #969595;
+}
+
+.menu-footer li:nth-child(1) a {
+  text-transform: uppercase;
+  color: #34737B;
+}
+
+.menu-footer li:nth-child(1) {
+  padding-bottom: 15px;
+}
+
+.menu-footer {
+  text-align: left;
+}
+
+a {
+  opacity: 1;
+  transition: .3s;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: .3s;
+}
+
+.footer-widget-section {
+  text-align: left;
+}

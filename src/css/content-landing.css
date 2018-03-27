@@ -1,6 +1,8 @@
 
-
-.circuit-background
+.hs-form-booleancheckbox-display{
+  
+}
+/* .circuit-background
 {
   opacity: 0.3;
 }
@@ -17,31 +19,14 @@
 {
 color:yellow;
 flex-basis: 60%;
-}
+} */
 
 
  /* form contacto */
-#contact{
+/* #contact{
   height: -webkit-fill-available;
 }
 .inspirated-phrase
 {
   flex-basis: 40%;
-}
-
-
-
-/*
-.product-filter {
-  display: flex;
-}
-.product-filter h1 {
-  flex-grow: 1;
-}
-.sort {
-  display: flex;
-}
-.collection-sort {
-  display: flex;
-  flex-direction: column;
 } */
