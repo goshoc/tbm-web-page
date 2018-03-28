@@ -9,3 +9,9 @@ opacity: 0.9;
 position: absolute;
 width:100%
 }
+.navbar-brand img{
+  max-height: 40px;
+}
+.navbar-nav  li a{
+    color: #34737B;
+}

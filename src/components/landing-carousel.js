@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import InstrumentacionPhoto from '../img/servicios/instrumentacion.jpg';
 
 class LandingCarousel extends Component {
 
@@ -16,7 +17,7 @@ class LandingCarousel extends Component {
                   <img src="img/hero-slide-1.jpg" alt="Hero Slide"></img>
 
                   <div className="carousel-caption">
-                    <h1>It′s simple, smart and occasionally magical.</h1>
+                    <h1>Automatización y control</h1>
 
                     <p>Intrinsicly negotiate corporate synergy rather than user-centric web services. Synergistically transition emerging schemas and.</p>
                   </div>
@@ -25,16 +26,16 @@ class LandingCarousel extends Component {
                   <img src="img/hero-slide-2.jpg" alt="..."></img>
 
                   <div className="carousel-caption">
-                    <h1>It′s profitable and successful!</h1>
+                    <h1>Instrumentación</h1>
 
-                    <p>Synergistically enhance low-risk high-yield testing procedures with clicks-and-mortar architectures. Compellingly revolutionize future-proof interfaces and.</p>
+                    <p>Sensores. Adquisidores de datos ACR. Instrumentos de medición y registro. Instrumentos de medición Amprobe. Calibración y certificación de instrumentos. Perfiles térmicos. Calificación IQ, OQ, PQ.</p>
                   </div>
                 </div>
                 <div className="item">
                   <img src="img/hero-slide-3.jpg" alt="..."></img>
 
                   <div className="carousel-caption">
-                    <h1>Good solutions for your business!</h1>
+                    <h1>Seguridad y Control de Acceso</h1>
 
                     <p>Monotonectally envisioneer 24/7 bandwidth with reliable imperatives. Continually unleash unique niches after go forward.</p>
                   </div>

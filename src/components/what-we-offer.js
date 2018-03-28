@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import '../css/content-landing.css';
+import AutomatizacionYControlPhoto from '../img/servicios/automatizacion.jpg';
+import ControlySeguridadPhoto from '../img/servicios/control_de_acceso.jpg';
+import InstrumentacionPhoto from '../img/servicios/instrumentacion.jpg';
 
 class WhatWeOffer extends Component {
 
@@ -10,7 +13,7 @@ class WhatWeOffer extends Component {
 
         <section className="section-title">
           <div className="container text-center">
-            <h2>What We Offer</h2>
+            <h2>Nuestras áreas</h2>
             <span className="bordered-icon"><i className="fa fa-circle-thin"></i></span>
           </div>
         </section>
@@ -19,23 +22,23 @@ class WhatWeOffer extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="thumbnail clearfix">
-                <a href="#"><img className="img-responsive" src="img/img-offer-1.jpg" alt="Image"></img></a>
+                <a href="#"><img className="img-responsive" src={AutomatizacionYControlPhoto} alt="Image"></img></a>
 
                 <div className="caption">
-                  <h3><a href="#">Investment</a></h3>
+                  <h3><a href="#">Automatización y Control</a></h3>
 
-                  <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p>
+                  <p>Variadores de velocidad. PLC. Interfaces (HMI). Reguladores de temperatura.Fuentes de alimentación. Comunicación inalámbrica. Instalación y puesta en marcha. Servicio de reparación y mantenimiento.</p>
                 </div>
               </div>
             </div>
             <div className="col-md-6">
               <div className="thumbnail clearfix">
-                <a href="#"><img className="img-responsive" src="img/img-offer-2.jpg" alt="Image"></img></a>
+                <a href="#"><img className="img-responsive" src={ControlySeguridadPhoto} alt="Image"></img></a>
 
                 <div className="caption">
-                  <h3><a href="#">Planning</a></h3>
+                  <h3><a href="#">Seguridad y control de acceso</a></h3>
 
-                  <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p>
+                  <p>Control de acceso biométrico. Cámaras de seguridad. Control de acceso. Control de asistencia de personal. Identificación por RFiD. Instalación y capacitación. Servicio de reparación y mantenimiento.</p>
                 </div>
               </div>
             </div>
@@ -44,23 +47,12 @@ class WhatWeOffer extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="thumbnail clearfix">
-                <a href="#"><img className="img-responsive" src="img/img-offer-3.jpg" alt="Image"></img></a>
+                <a href="#"><img className="img-responsive" src={InstrumentacionPhoto} alt="Image"></img></a>
 
                 <div className="caption">
-                  <h3><a href="#">Analysis</a></h3>
+                  <h3><a href="#">Instrumentación</a></h3>
 
-                  <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="thumbnail clearfix">
-                <a href="#"><img className="img-responsive" src="img/img-offer-4.jpg" alt="Image"></img></a>
-
-                <div className="caption">
-                  <h3><a href="#">Banking</a></h3>
-
-                  <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat tellus odio malesuada ex.</p>
+                  <p>Sensores. Adquisidores de datos ACR. Instrumentos de medición y registro. Instrumentos de medición Amprobe. Calibración y certificación de instrumentos. Perfiles térmicos. Calificación IQ, OQ, PQ.</p>
                 </div>
               </div>
             </div>

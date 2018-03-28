@@ -6,7 +6,8 @@ import WhatWeOffer from '../components/what-we-offer.js';
 import OurCapability from '../components/our-capability.js';
 import OurTeam from '../components/our-team.js';
 import Testimonials from '../components/testimonials.js';
-import OurCustomers from '../components/our-customers.js';
+import OurCustomers from '../customers/our-customers.js';
+import FormContacto from '../contacto/contacto.js';
 
 
 class ContentLanding extends Component {
@@ -19,9 +20,10 @@ class ContentLanding extends Component {
       <LandingCarousel/>
       <WhatWeOffer/>
       <OurCapability/>
-      <OurTeam/>
-      <Testimonials/>
+      {/* <OurTeam/> */}
+      {/* <Testimonials/> */}
       <OurCustomers/>
+      <FormContacto/>
     </div>)
   }
 }
