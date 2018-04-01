@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import '../css/content-landing.css';
+import '../css/what-we-offer-mio.css';
 import AutomatizacionYControlPhoto from '../img/servicios/automatizacion.jpg';
 import ControlySeguridadPhoto from '../img/servicios/control_de_acceso.jpg';
 import InstrumentacionPhoto from '../img/servicios/instrumentacion.jpg';
@@ -21,7 +21,7 @@ class WhatWeOffer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div className="thumbnail clearfix">
+              <div className="thumbnail clearfix services-card">
                 <a href="#"><img className="img-responsive" src={AutomatizacionYControlPhoto} alt="Image"></img></a>
 
                 <div className="caption">
@@ -32,7 +32,7 @@ class WhatWeOffer extends Component {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="thumbnail clearfix">
+              <div className="thumbnail clearfix services-card">
                 <a href="#"><img className="img-responsive" src={ControlySeguridadPhoto} alt="Image"></img></a>
 
                 <div className="caption">
@@ -46,7 +46,7 @@ class WhatWeOffer extends Component {
 
           <div className="row">
             <div className="col-md-6">
-              <div className="thumbnail clearfix">
+              <div className="thumbnail clearfix services-card">
                 <a href="#"><img className="img-responsive" src={InstrumentacionPhoto} alt="Image"></img></a>
 
                 <div className="caption">

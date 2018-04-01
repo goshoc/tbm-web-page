@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import logoTBM from '../img/logo-tbm2.png';
+import logoTBM from '../img/logo-tbm.png';
 import '../css/app-bar.css';
 
 class GlobalAppBar extends Component {
